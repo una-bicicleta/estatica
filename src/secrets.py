@@ -26,3 +26,7 @@ def ok():
         print("OK")
     else:
         print("Still OK")
+
+
+def plus(c, d):
+    return c + d
