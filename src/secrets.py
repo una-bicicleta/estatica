@@ -30,3 +30,7 @@ def ok():
 
 def plus(c, d):
     return c + d
+
+
+def plus(c, d):
+    return c + d
