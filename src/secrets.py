@@ -9,3 +9,5 @@ resource.add_method(
     "GET",
     authorization_type=apigateway.AuthorizationType.NONE  # Sensitive
 )
+
+AWS_SECRET_KEY = "AKIAWOKAWOKAWOK"
