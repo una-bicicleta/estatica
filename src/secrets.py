@@ -11,3 +11,6 @@ resource.add_method(
 )
 
 AWS_SECRET_KEY = "AKIAWOKAWOKAWOK"
+
+username = "ADMIN"
+password = "PASSWORD"
