@@ -18,3 +18,11 @@ username = "ADMIN"
 password = "PASSWORD"
 
 hashed_password = hashlib.md5(password)
+
+
+def ok():
+    a = True
+    if a:
+        print("OK")
+    else:
+        print("Still OK")
