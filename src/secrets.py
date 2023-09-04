@@ -4,6 +4,8 @@ from aws_cdk import (
     aws_apigateway as apigateway
 )
 
+import hashlib
+
 resource = api.root.add_resource("example")
 resource.add_method(
     "GET",
@@ -14,3 +16,5 @@ AWS_SECRET_KEY = "AKIAWOKAWOKAWOK"
 
 username = "ADMIN"
 password = "PASSWORD"
+
+hashed_password = hashlib.md5(password)
